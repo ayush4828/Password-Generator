@@ -44,7 +44,7 @@ random-password-generator/    <br>
 ---
 
 ## 🌐 Live Demo
-👉 https://your-username.github.io/random-password-generator/
+👉https://ayush4828.github.io/Password-Generator/
 
 *(Enable GitHub Pages to activate the demo)*
 
