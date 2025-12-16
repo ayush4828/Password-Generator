@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Main Card */
+.container {
+  background: #ffffff;
+  width: 380px;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Password Box */
+.inputBox {
+  display: flex;
+  align-items: center;
+  background: #f1f3f6;
+  border-radius: 8px;
+  padding: 8px 10px;
+  margin-bottom: 15px;
+}
+
+.passBox {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: transparent;
+}
+
+.material-icons {
+  cursor: pointer;
+  color: #667eea;
+  transition: 0.3s;
+}
+
+.material-icons:hover {
+  color: #333;
+}
+
+/* Slider */
+#inputSlider {
+  width: 100%;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+/* Rows */
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.row p,
+.row label {
+  font-size: 14px;
+  color: #444;
+}
+
+/* Checkboxes */
+.row input[type="checkbox"] {
+  accent-color: #667eea;
+  cursor: pointer;
+}
+
+/* Button */
+.genBtn {
+  width: 100%;
+  margin-top: 15px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.genBtn:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
