@@ -48,6 +48,7 @@ random-password-generator/    <br>
 
 *(Enable GitHub Pages to activate the demo)*
 
+
 ---
 
 ## 📸 Screenshot
